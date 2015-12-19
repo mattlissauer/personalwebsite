@@ -1,0 +1,17 @@
+ul.nav {
+	list-style: none;
+	padding: 0;
+}
+
+ul.nav li {
+	display: inline;
+}
+
+.nav {
+	width: 100%;
+	padding: 25px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	margin: 0 auto;
+}
