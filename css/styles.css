@@ -12,6 +12,34 @@
 	position: relative;
 }
 
+.main-about {
+	width: 1130px;
+	height: 524px;
+	border-style: solid;
+	border-color: #ffffff;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 1px;
+	padding: 10px;
+	margin-left: 52px;
+	float: left;
+	position: relative;
+}
+
+.main-contact {
+	width: 1130px;
+	height: 524px;
+	border-style: solid;
+	border-color: #ffffff;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 1px;
+	padding: 10px;
+	margin-left: 52px;
+	float: left;
+	position: relative;
+}
+
 .featured {
     width: 280px;
     height: 500px;
