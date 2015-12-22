@@ -18,7 +18,7 @@
 
 .main-about {
 	width: 1130px;
-	height: 500px;
+	height: 310px;
 	border-style: solid;
 	border-color: #ffffff;
     border-left-width: 5px;
@@ -34,9 +34,13 @@
 	padding-top: 1px;
 }
 
+.about-body {
+	margin-right: 150px;
+}
+
 .main-contact {
 	width: 1130px;
-	height: 524px;
+	height: 300px;
 	border-style: solid;
 	border-color: #ffffff;
     border-left-width: 5px;
@@ -44,6 +48,7 @@
     border-top-width: 1px;
 	padding: 10px;
 	float: left;
+	text-align: center;
 	position: relative;
 }
 
@@ -62,6 +67,10 @@
     position: relative;
 }
 
+.connect {
+	line-height: 2;
+}
+
 .footer {
 	width: 1160px;
 	padding: 5px;
@@ -70,6 +79,7 @@
 	border-width: 5px;
 	border-top-width: 2px;
 	border-color: #ffffff;
+	text-align: center;
 	margin: 0 auto;
 	clear: both;
 	position: relative;
@@ -153,14 +163,35 @@ a {
 	color: #ffff00;
 }
 
+h1 {
+	position: absolute;
+	top: 1px;
+	left: 0;
+	width: 100%;
+	font-size: 3em;
+}
+
+h1 span {
+	color: white;
+	letter-spacing: -1px;
+	background: rgba(0,0,0,0.7);
+	padding: 20px;
+	margin-left: 60px;
+}
+
+h1 span.spacer {
+	padding: 1px 8px;
+}
+
 h2, h3 {
 	padding-left: 10px;
 }
 
 table {
-	width: 25%;
+	width: 35%;
 	border: none;
 	border-collapse: collapse;
+	margin: 0 auto;
 }
 
 table td {
