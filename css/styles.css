@@ -1,3 +1,8 @@
+.container {
+	width: 1160px;
+	margin: 0 auto;
+}
+
 .main {
 	width: 800px;
 	height: 524px;
@@ -7,23 +12,26 @@
     border-right-width: 1px;
     border-top-width: 1px;
 	padding: 10px;
-	margin-left: 52px;
 	float: left;
 	position: relative;
 }
 
 .main-about {
 	width: 1130px;
-	height: 524px;
+	height: 500px;
 	border-style: solid;
 	border-color: #ffffff;
     border-left-width: 5px;
     border-right-width: 5px;
     border-top-width: 1px;
 	padding: 10px;
-	margin-left: 52px;
 	float: left;
 	position: relative;
+}
+
+.about-header {
+	line-height: 0.1;
+	padding-top: 1px;
 }
 
 .main-contact {
@@ -35,7 +43,6 @@
     border-right-width: 5px;
     border-top-width: 1px;
 	padding: 10px;
-	margin-left: 52px;
 	float: left;
 	position: relative;
 }
@@ -77,6 +84,15 @@ img.h-img {
 	position: relative;
 }
 
+img.profile {
+	width: 200px;
+	float: left;
+	padding: 5px;
+	border-style: ridge;
+	margin: 12px;
+	position: relative;
+}
+
 ul.nav {
 	list-style: none;
 	padding: 13px;
@@ -103,15 +119,23 @@ ul.nav li {
 	margin: 0 auto;
 }
 
-img.ymal-img {
+img.feat-img {
 	width: 200px;
 	margin-left: 1px;
 }
 
-img.col-img {
-	width: 350px;
-	margin-left: 1px;
+img.por-img-1 {
+	width: 200px;
+	margin-left: 10px;
 	float: left;
+	padding-right: 10px;
+}
+
+img.por-img-2 {
+	width: 200px;
+	margin-left: 10px;
+	float: left;
+	clear: right;
 	padding-right: 10px;
 }
 
@@ -127,6 +151,25 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	color: #ffff00;
+}
+
+h2, h3 {
+	padding-left: 10px;
+}
+
+table {
+	width: 25%;
+	border: none;
+	border-collapse: collapse;
+}
+
+table td {
+	border-left: 1px solid #ffffff;
+	text-align: center;
+}
+
+table td:first-child {
+	border-left: none;
 }
 
 body {
